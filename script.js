@@ -55,9 +55,9 @@ function displayCards() {
     gameBoard.appendChild(hieroglyphContainer);
     gameBoard.appendChild(emojiContainer);
 
-    const selectedCards = shuffleArray(cardData).slice(0, currentRound); // Shuffle the entire cardData array
-    const shuffledHieroglyphs = shuffleArray([...selectedCards]); // Shuffle hieroglyphs
-    const shuffledEmojis = shuffleArray([...selectedCards]); // Shuffle emojis separately
+    const selectedCards = shuffleArray(cardData).slice(0, currentRound);
+    const shuffledHieroglyphs = shuffleArray([...selectedCards]);
+    const shuffledEmojis = shuffleArray([...selectedCards]);
     
     shuffledHieroglyphs.forEach(card => {
         const cardElement = document.createElement('div');
@@ -73,12 +73,8 @@ function displayCards() {
         cardElement.innerText = card.e;
         emojiContainer.appendChild(cardElement);
     });
+    
 }
-
-
-
-
-// ... [rest of the script.js remains unchanged]
 
 gameBoard.addEventListener('click', (e) => {
     const card = e.target;
