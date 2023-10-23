@@ -71,8 +71,9 @@ function displayCards() {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card', 'emoji-card');
         cardElement.innerText = card.e;
+        cardElement.setAttribute('title', card.c); // Set the title attribute to the "c" key text
         emojiContainer.appendChild(cardElement);
-    });
+    });    
     
 }
 
