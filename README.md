@@ -11,6 +11,11 @@ The goal of the game is to match Chinese hieroglyphs with their corresponding em
 5. After completing a round, the next round will begin with an increased number of pairs to match.
 6. The game continues until all rounds are completed.
 
+## Play the Game
+Click the link below to start playing:
+[Play Hieroglyph Emoji Match Game](https://raushansakhibzadin.github.io/hieroglyph_card_game/)
+
+
 ## Hints
 - Hover over an emoji card to see a hint about its corresponding hieroglyph.
 - The game provides visual feedback: when a card is selected, it will slightly enlarge.
